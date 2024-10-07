@@ -119,6 +119,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ForeignExchangeCalculator.xaml.cs">
+      <DependentUpon>ForeignExchangeCalculator.xaml</DependentUpon>
+    </Compile>
     <Compile Include="NavigationPage.xaml.cs">
       <DependentUpon>NavigationPage.xaml</DependentUpon>
     </Compile>
@@ -156,6 +159,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ForeignExchangeCalculator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Controls\NumberButtonControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

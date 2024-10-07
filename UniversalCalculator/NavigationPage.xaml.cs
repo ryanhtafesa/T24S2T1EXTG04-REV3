@@ -31,5 +31,11 @@ namespace Calculator
 			// Navigate to the Mortgage Calculator page - RH
 			Frame.Navigate(typeof(MortgageCalculator));
 		}
+				private void btnForeignExchange_Click(object sender, RoutedEventArgs e)
+		{
+			// Navigate to the Currency Converter page - AK
+			Frame.Navigate(typeof(ForeignExchangeCalculator));
+		}
+		
 	}
 }

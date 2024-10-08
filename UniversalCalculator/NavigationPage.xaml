@@ -14,6 +14,8 @@
 			<Button Name="btnMathsCalculator" Content="Maths Calculator" Margin="10" Width="200" FontWeight="Bold" Click="btnMathsCalculator_Click"/>
 			<Button Name="btnMortgageCalculator" Content="Mortgage Calculator" Margin="10" Width="200" FontWeight="Bold" Click="btnMortgageCalculator_Click"/>
 			<Button Name="btnForeignExchange" Content="Foreign Exchange" Margin="10" Width="200" FontWeight="Bold" Click="btnForeignExchange_Click"/>
+			<Button Name="btnTripCalculator" Content="Trip Calculator" Margin="10" Width="200" FontWeight="Bold" Click="btnTripCalculator_Click"/>
+			<!--Trip calculator C# code will be developed later AK-->
 			<Button Name="btnExit" Content="Exit" Margin="10" Width="200" FontWeight="Bold" Click="btnAppExit_Click"/>
 		</StackPanel>
 		<TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="114"><Run FontWeight="Bold" Text="Universal Calculator" FontSize="42"/></TextBlock>

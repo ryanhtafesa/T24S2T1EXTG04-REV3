@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -31,7 +32,7 @@ namespace Calculator
 			// Navigate to the Mortgage Calculator page - RH
 			Frame.Navigate(typeof(MortgageCalculator));
 		}
-				private void btnForeignExchange_Click(object sender, RoutedEventArgs e)
+		private void btnForeignExchange_Click(object sender, RoutedEventArgs e)
 		{
 			// Navigate to the Currency Converter page - AK
 			Frame.Navigate(typeof(ForeignExchangeCalculator));
@@ -45,6 +46,14 @@ namespace Calculator
 		private void btnAppExit_Click(object sender, RoutedEventArgs e)
 		{
 			Application.Current.Exit();
+		}
+		private async void btnTripCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			// Create a message dialog
+			var messageDialog = new MessageDialog("Trip calculator C# code will be developed later");
+
+			// Show the message dialog
+			await messageDialog.ShowAsync();
 		}
 	}
 }
